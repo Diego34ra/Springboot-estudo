@@ -20,6 +20,6 @@ public class AppController {
 
     @GetMapping("/VariavelAmb")
     public String getDbVariavelAmbiemte() {
-        return "A seguinte variável de ambiente foi passada" + dbVariavelAmbiemte;
+        return "A seguinte variavel de ambiente foi passada" + dbVariavelAmbiemte;
     }
 }
